@@ -1,0 +1,166 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #06283D;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #47B5FF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+img {
+
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    margin-left: 30px;
+    color: #06283D;
+}
+
+.kolom .deskripsi2 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    color: #06283D;
+}
+
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: #06283D;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.pelajari {
+    background: #47B5FF;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.pelajari:hover {
+    background: #FFA1CF;
+    text-decoration: none;
+}
+
+.login {
+    background: #47B5FF;
+    border: solid 2px black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 10px 20px 10px;    
+    width: 300px;
+    height: 150px;
+    margin: 150px 460px 50px 460px;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.search input[type=text]{
+    width:100px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+    text-align: center;
+}
+     
+.search{
+    margin:7px;
+}
+     
+.profil {
+    margin-left: 20px;
+}
+
+.profil p {
+    text-align: center;
+    color: black;
+    background: #47B5FF;
+    width: 80px;
+    border-radius: 5px;
+}
